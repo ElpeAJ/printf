@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
-*Characters printed
+*_printf: This is the main function
 *Conversion specifier
 *Retrieve the next argument and print it as a character
 *Retrieve the next argument and print it as a string
 *Print a literal '%'
 *If an unsupported conversion
-*... specifier is encountered, ignore it
 */
 int _printf(const char *format, ...)
 {
